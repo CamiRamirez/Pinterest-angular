@@ -1,0 +1,177 @@
+#contLogo{
+  margin-left: 2em;
+  margin-top: 0.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5em;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+}
+#contLogo:hover{
+  background-color:  #EFEFEF;
+}
+#logo{
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+/*Barra de busqueda*/
+.input-group{
+  width: 53%;
+  margin-left: 0.5em;
+}
+#inputSearch{
+  background-color: #EFEFEF;
+  height: 2.5em;
+  margin-top: 0.8em;
+  font-weight: bold;
+  border: none;
+}
+#btnGroupAddon2{
+  height: 2.5em;
+  margin-top: 0.8em;
+  border: none;
+}
+.fa-search{
+  color: gray;
+  font-size: 1.2em;
+}
+
+#photoUser{
+  width: 2em;
+  height: 2em;
+}
+/*boton inicio*/
+#btnInicio{
+  margin-top: 0.8em;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  height: 2.5em;
+  margin-left: 1.5em;
+  cursor: pointer;
+}
+#btnInicio:hover{
+  background-color:  #EFEFEF;
+}
+#textInicio{
+  padding: 0.4em;
+  font-weight: bold;
+}
+
+/*boton siguiendo*/
+#btnSiguiendo{
+  margin-top: 0.8em;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  height: 2.5em;
+  margin-left: 0.4em;
+  cursor: pointer;
+}
+#btnSiguiendo:hover{
+  background-color:  #EFEFEF;
+}
+#textSiguiendo{
+  padding: 0.4em;
+  font-weight: bold;
+  color: gray;
+}
+
+/*boton explorar*/
+#btnExplorar{
+  margin-top: 0.8em;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  height: 2.5em;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+#btnExplorar:hover{
+  background-color:  #EFEFEF;
+}
+#textExplorar{
+  padding: 0.4em;
+  font-weight: bold;
+  color: gray;
+}
+
+/*boton usuario*/
+#btnUser{
+  margin-top: 0.8em;
+  background-color: transparent;
+  border: none;
+  border-radius: 20px;
+  height: 2.5em;
+  margin-left: 0.2em;
+  cursor: pointer;
+}
+
+#btnUser:hover{
+  background-color:  #EFEFEF;
+}
+#nameUser{
+  padding:0.6em;
+  font-weight: bold;
+  color: gray;
+  display: inline;
+}
+
+/*boton mensaje*/
+#btnMsg{
+  margin-top: 0.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5em;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+}
+#btnMsg:hover{
+  background-color:  #EFEFEF;
+}
+.fa-comment{
+  color: gray;
+  font-size: 1.2em;
+}
+
+/*boton de notificaciones*/
+#btnNotif{
+  margin-top: 0.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5em;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+}
+#btnNotif:hover{
+  background-color:  #EFEFEF;
+}
+.fa-bell{
+  color: gray;
+  font-size: 1.3em;
+}
+/*boton de más*/
+#btnMore{
+  margin-top: 0.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5em;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+}
+#btnMore:hover{
+  background-color:  #EFEFEF;
+}
+#points{
+  color: gray;
+  font-size: 1.3em;
+  margin-top: 0.25em;
+}
