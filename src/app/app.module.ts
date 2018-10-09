@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ContainerphotoComponent } from './containerphoto/containerphoto.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ContainerphotoComponent } from './containerphoto/containerphoto.compone
   ],
   imports: [
     BrowserModule,
+    HttpClientModule
 
   ],
   providers: [],
