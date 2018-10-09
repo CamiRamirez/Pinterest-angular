@@ -102,6 +102,11 @@ cursor: pointer
   width: 22.5em;
   height: 2em;
   border-radius: 5px;
+  cursor: pointer;
+}
+#btnAuthor:hover{
+  background-color: rgb(223, 222, 222);
+  text-decoration-line: underline;
 }
 
 #btnPhotos{
@@ -109,8 +114,8 @@ cursor: pointer
   background-color:  #EFEFEF;
   border: none;
   border-radius: 2.5em;
-  height: 2em;
-  width: 3em;
+  height: 2.5em;
+  width: 5em;
   cursor: pointer;
   color: black;
   font-weight: 700;
@@ -118,6 +123,27 @@ cursor: pointer
 }
 
 #btnComments{
+margin-left: 0.5em;
 padding-right: 1em;
 padding-left: 1em;
+color: grey;
+font-weight: 700;
+margin-bottom: 0.5em;
+background-color: transparent;
+border: none;
+border-radius: 2.5em;
+cursor: pointer;
+}
+#btnComments:hover{
+  text-decoration-line: underline;
+}
+#btnAdd{
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#line{
+  margin-left: 0;
+  width: 80%;
 }
