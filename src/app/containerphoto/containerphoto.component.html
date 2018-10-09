@@ -1,0 +1,66 @@
+<!-- contenedor de imagenes -->
+<div class="container">
+  <div class="row mt-4">
+      <div class="card-columns" id="contentCard">
+          <div class="card border-0 toModal" *ngFor="let imgCard of galleryJSON">
+              <a href="#cards{{imgCard.id}}" data-toggle="modal" data-target="#cards{{imgCard.id}}">
+                  <img class="card-img-top imgCard" src="{{imgCard.urlPhoto}}" alt="card">
+                  <div class="card-body">
+                      <h5 class="card-title titlePhoto">{{imgCard.namePhoto}}</h5>
+                  </div>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- modal -->
+<div  *ngFor="let imgCard of galleryJSON" id="cards{{imgCard.id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-lg-5">
+              <button id="btnMore">
+                  <p id="points">•••</p>
+              </button>
+              <img class="card-img-top photoModal" src="{{imgCard.urlPhoto}}" alt="Card image cap">
+          </div>
+          <div class="col-lg-7">
+            <div class="container info">
+              <div class="row text-center">
+                <button id="send">Enviar</button>
+                <button id="btnTab"> Ejercicio Angul...<i class="fas fa-angle-down"></i></button>
+                <button id="save">Guardar</button>
+              </div>
+              <div class="row text-center mt-3 ">
+                <h2>{{imgCard.namePhoto}}</h2>
+              </div>
+              <div class="row mt-2 mb-3">
+                <p>{{imgCard.description}}</p>
+              </div>
+              <div class="row">
+                <button id="btnAuthor"><strong>{{imgCard.nameAuthor}}</strong></button>
+              </div>
+              <div class="row mt-3">
+                <p>Publicado el 09 de Octube de 2018</p>
+              </div>
+              <div class="row">
+                <h2>Fotos y comentarios</h2>
+              </div>
+              <div class="row">
+                <button id="btnPhotos"><span id="ph">Fotos</span></button>
+                <button id="btnComments">Comentarios</button>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

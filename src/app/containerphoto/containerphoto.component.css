@@ -1,0 +1,123 @@
+@media (min-width: 1000px) {
+  .card-columns {
+      -webkit-column-count: 5;
+      -moz-column-count: 5;
+      column-count: 5
+  }
+}
+
+.toModal a {
+  text-decoration: none;
+  outline: none;
+  cursor: zoom-in;
+}
+
+.toModal:hover {
+  box-shadow: 4px 6px 11px 0px rgba(0, 0, 0, 0.10);
+}
+.imgCard{
+  border-radius: 10px;
+}
+
+.imgCard:hover{
+  filter:brightness(0.7);
+}
+
+.photoCard {
+  border-radius: 25px;
+}
+
+.titlePhoto {
+  font-size: 15px;
+  color: #525252;
+}
+
+.photoModal{
+  border-radius: 5px;
+}
+
+#btnMore{
+  margin-bottom: 0.5em;
+  background-color: transparent;
+  border: none;
+  border-radius: 2.5em;
+  height: 3em;
+  width: 3em;
+  cursor: pointer;
+}
+#btnMore:hover{
+  background-color:  #EFEFEF;
+}
+#points{
+  color: gray;
+  font-size: 1.3em;
+  margin-top: 0.25em;
+}
+.info{
+  margin-left: 1em;
+}
+#send{
+background-color: rgb(236, 234, 234);
+border: none;
+border-radius: 5px;
+font-weight: 700;
+margin-top: 0.6em;
+padding: 0.5em;
+width: 7em;
+cursor: pointer;
+}
+#send:hover{
+  background-color: rgb(223, 222, 222);
+}
+#btnTab{
+background-color: rgb(236, 234, 234);
+border: none;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+margin-top: 0.6em;
+margin-left: 1em;
+cursor: pointer;
+}
+#btnTab:hover{
+  background-color: rgb(223, 222, 222);
+}
+
+#save{
+background-color: rgb(180, 8, 28);
+border: none;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+color: white;
+margin-top: 0.6em;
+width: 6em;
+cursor: pointer
+}
+#save:hover{
+  background-color: #AD081B;
+}
+
+#btnAuthor{
+  background-color: rgb(236, 234, 234);
+  border: none;
+  width: 22.5em;
+  height: 2em;
+  border-radius: 5px;
+}
+
+#btnPhotos{
+  margin-bottom: 0.5em;
+  background-color:  #EFEFEF;
+  border: none;
+  border-radius: 2.5em;
+  height: 2em;
+  width: 3em;
+  cursor: pointer;
+  color: black;
+  font-weight: 700;
+  font-size: 1em;
+}
+
+#btnComments{
+padding-right: 1em;
+padding-left: 1em;
+}
