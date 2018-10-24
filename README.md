@@ -1,9 +1,10 @@
 
 # Pinterest
 
+Proyecto realizado con Angular, simulando a la aplicación Pinterest.
 ![alt text](https://raw.githubusercontent.com/CamiRamirez/Pinterest-angular/master/src/assets/img/pinterest.png)
 
-Proyecto realizado con Angular, simulando a la aplicación Pinterest.
+
 
 ## Deploy
 
