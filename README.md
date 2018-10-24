@@ -1,4 +1,7 @@
+
 # Pinterest
+
+![alt text]()
 
 Proyecto realizado con Angular, simulando a la aplicación Pinterest.
 
